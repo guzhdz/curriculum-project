@@ -1,0 +1,11 @@
+<div class="content-container">
+    <app-category-title class="category-title" [title]="'Profile'"></app-category-title>
+    <div class="elements-container">
+        <div *ngFor="let aspect of aspects" class="aspect">
+            <mat-icon fontIcon="{{aspect.icon}}" class="icon"></mat-icon>
+            <span class="title">{{aspect.title}}</span>
+            <span class="text" *ngFor="let text of aspect.texts">{{text}}</span>
+        </div>
+    </div>
+</div>
+

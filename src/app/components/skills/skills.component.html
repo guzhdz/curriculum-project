@@ -1,0 +1,13 @@
+<div class="content-container">
+    <app-category-title class="category-title" [title]="'Skills'"></app-category-title>
+    <div class="skills-container">
+        <div class="skill" *ngFor="let skill of skills">
+            <span class="title">{{skill.title}}</span>
+            <div class="lists-container">
+                <ul *ngFor="let list of skill.lists" class="list">
+                    <li class="element" *ngFor="let element of list">{{element}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

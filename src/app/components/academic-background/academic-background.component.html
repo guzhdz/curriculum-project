@@ -1,0 +1,15 @@
+<div class="content-container">
+    <app-category-title class="category-title" [title]="'Academic Background'"></app-category-title>
+    <div class="works-container">
+        <div class="list-container">
+            <div class="work" *ngFor="let academic of academics">
+                <span class="title">{{academic.title}}</span>
+                <span class="school">{{academic.school}}</span>
+                <span class="time">{{academic.time}}</span>
+                <span class="description">{{academic.description}}</span>
+            </div>
+        </div>
+
+        <mat-icon fontIcon="school" class="icon"></mat-icon>
+    </div>
+</div>

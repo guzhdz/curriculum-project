@@ -1,0 +1,19 @@
+<div class="content-container">
+    <app-category-title class="category-title" [title]="'Contact'"></app-category-title>
+    <div class="contacts-container">
+        <div class="contact">
+            <mat-icon fontIcon="email" class="icon"></mat-icon>
+            <span class="text">{{email}}</span>
+        </div>
+
+        <div class="contact">
+            <mat-icon fontIcon="phone" class="icon"></mat-icon>
+            <span class="text">3310214854</span>
+        </div>
+
+        <div class="contact github" (click)="goToGithub()">
+            <img src="assets/github-mark-white.png" alt="Github logo" class="icon-github">
+            <span class="text link">guzhdz</span>
+        </div>
+    </div>
+</div>

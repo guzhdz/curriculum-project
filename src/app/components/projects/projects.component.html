@@ -1,0 +1,15 @@
+<div class="content-container">
+    <app-category-title class="category-title" [title]="'Projects'"></app-category-title>
+    <div class="projects-container">
+        <div class="list-container">
+            <div class="project" *ngFor="let project of projects">
+                <span class="title">{{project.title}}</span>
+                <ul class="list">
+                    <li class="element" *ngFor="let element of project.list">{{element}}</li>
+                </ul>
+            </div>
+        </div>
+
+        <mat-icon fontIcon="code" class="icon"></mat-icon>
+    </div>
+</div>

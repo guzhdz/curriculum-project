@@ -1,0 +1,15 @@
+<div class="content-container">
+    <app-category-title class="category-title" [title]="'Work Experience'"></app-category-title>
+    <div class="works-container">
+        <div class="list-container">
+            <div class="work" *ngFor="let work of works">
+                <span class="title">{{work.title}}</span>
+                <span class="time" *ngIf="work.time">{{work.time}}</span>
+                <span class="position">Position: {{work.position}}</span>
+                <span class="functions">Functions: {{work.functions}}</span>
+            </div>
+        </div>
+
+        <mat-icon fontIcon="work" class="icon"></mat-icon>
+    </div>
+</div>

@@ -1,0 +1,233 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.content-container .category-title {
+    margin-bottom: 30px;
+}
+
+.content-container .elements-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+.elements-container .aspect {
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 30px;
+
+    width: 19.79vw;
+
+    background-color: var(--white);
+    border-radius: 5px;
+    transition: all .2s ease-in-out;
+}
+
+.elements-container .aspect:hover {
+    cursor: default;
+    transform: scale(1.03);
+}
+
+.aspect .icon {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+
+    width: 55px;
+    height: 55px;
+
+    font-size: 55px;
+    color: var(--primary-light);
+}
+
+.aspect .title {
+    font-size: 22px;
+    color: var(--dark);
+    line-height: normal;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+.aspect .text {
+    font-size: 16px;
+    color: var(--dark);
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1328px) and (max-width: 1600px) {
+    .elements-container .aspect {
+        padding: 15px 30px;
+    
+        width: 18.75vw;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1328px) {
+    .elements-container .aspect {
+        padding: 15px 30px;
+    
+        width: 21.08vw;
+    }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+    .elements-container .aspect {
+        padding: 15px 30px;
+    
+        width: 21.48vw;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 960px) {
+    .elements-container .aspect {
+        padding: 15px 30px;
+    
+        width: 18.75vw;
+    }
+
+    .aspect .icon {
+        margin-bottom: 5px;
+    
+        width: 45px;
+        height: 45px;
+    
+        font-size: 45px;
+    }
+    
+    .aspect .title {
+        font-size: 20px;
+    
+        margin-bottom: 10px;
+    }
+    
+    .aspect .text {
+        font-size: 14px;
+
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .content-container .elements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elements-container .aspect {
+        padding: 15px 30px;
+
+        box-sizing: border-box;
+    
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+    .aspect .icon {
+    
+        width: 45px;
+        height: 45px;
+    
+        font-size: 45px;
+    }
+    
+    .aspect .title {
+        font-size: 18px;
+    
+        margin-bottom: 10px;
+    }
+    
+    .aspect .text {
+        font-size: 14px;
+
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .content-container .elements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elements-container .aspect {
+        padding: 15px 30px;
+
+        box-sizing: border-box;
+    
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+    .aspect .icon {
+    
+        width: 45px;
+        height: 45px;
+    
+        font-size: 45px;
+    }
+    
+    .aspect .title {
+        font-size: 16px;
+    
+        margin-bottom: 10px;
+    }
+    
+    .aspect .text {
+        font-size: 12px;
+
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    .content-container .elements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .elements-container .aspect {
+        padding: 15px 30px;
+
+        box-sizing: border-box;
+    
+        width: 100%;
+
+        margin-bottom: 20px;
+    }
+
+    .aspect .icon {
+    
+        width: 45px;
+        height: 45px;
+    
+        font-size: 45px;
+    }
+    
+    .aspect .title {
+        font-size: 16px;
+    
+        margin-bottom: 10px;
+    }
+    
+    .aspect .text {
+        font-size: 12px;
+
+        margin-bottom: 10px;
+    }
+}
