@@ -1,5 +1,13 @@
 # Curriculum
 
+El proyecto es una pagina web donde se presenta mi curriculum, dentro se expone toda la informacion relacionada a mi educacionn, experiencia, habilidades, contactos, etc.
+
+Link Deploy: https://guzhdz.github.io/
+
+Photo:
+
+![image](https://github.com/guzhdz/guzhdz.github.io/assets/89165084/fb478459-d069-4fc5-8885-064d65dbc0f8)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
 
 ## Development server
