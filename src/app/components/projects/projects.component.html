@@ -4,9 +4,9 @@
         <div class="list-container">
             <div class="project" *ngFor="let project of projects">
                 <span class="title">{{project.title}}</span>
-                <ul class="list">
-                    <li class="element" *ngFor="let element of project.list">{{element}}</li>
-                </ul>
+                <span class="description text"><span class="enhance">Description: </span>{{project.description}}</span>
+                <span class="used-tech text"><span class="enhance">Used Technology: </span>{{project.usedTech}}</span>
+                <span class="link text"><span class="enhance">Link: </span> <a href="{{project.link}}">Go to</a></span>
             </div>
         </div>
 

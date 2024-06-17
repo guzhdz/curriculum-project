@@ -39,7 +39,24 @@
     margin-bottom: 10px;
 }
 
-.project .list {
+.project .text {
+    margin-bottom: 5px;
+}
+
+.project .enhance {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.project a {
+    font-size: 16px;
+    color: var(--white);
+    line-height: 1.4;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/*.project .list {
     list-style-type: square;
     margin-left: 20px;
 }
@@ -48,7 +65,7 @@
     color: var(--white);
     line-height: 1.4;
     font-weight: 400;
-}
+}*/
 
 .projects-container .icon {
     width: 200px;
@@ -135,6 +152,20 @@
     .project .title {
         font-size: 20px;
     }
+
+    .project .enhance {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .project a {
+        font-size: 14px;
+        color: var(--white);
+        line-height: 1.4;
+        font-weight: 400;
+        text-align: justify;
+    }
+    
 }
 
 @media screen and (min-width: 480px) and (max-width: 768px)  {
@@ -162,6 +193,20 @@
     .project.title {
         font-size: 18px;
     }
+
+    .project .enhance {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .project a {
+        font-size: 14px;
+        color: var(--white);
+        line-height: 1.4;
+        font-weight: 400;
+        text-align: justify;
+    }
+    
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px)  {
@@ -189,6 +234,20 @@
     .project .title {
         font-size: 16px;
     }
+
+    .project .enhance {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .project a {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 1.4;
+        font-weight: 400;
+        text-align: justify;
+    }
+    
 }
 
 @media screen and (min-width: 0px) and (max-width: 320px)  {
@@ -215,5 +274,18 @@
     
     .project .title {
         font-size: 16px;
+    }
+
+    .project .enhance {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .project a {
+        font-size: 12px;
+        color: var(--white);
+        line-height: 1.4;
+        font-weight: 400;
+        text-align: justify;
     }
 }

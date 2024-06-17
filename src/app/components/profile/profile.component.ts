@@ -10,7 +10,7 @@ export class ProfileComponent {
     {
       icon: "account_circle",
       title: "About me",
-      texts: ["Computer Engineering Student and Software Development Technologist. Aspiring Senior Web development Programmer and UI Designer, always willing to obtain new knowledge and use new technological tools. Willing to be part of a team and put in all the effort to create functional and high quality applications, websites and software."]
+      texts: ["Computer Engineering Graduate and Software Development Technologist. Aspiring Senior Web development Programmer and UI Designer, always willing to obtain new knowledge and use new technological tools. Willing to be part of a team and put in all the effort to create functional and high quality applications, websites and software."]
     },
     {
       icon: "videogame_asset",

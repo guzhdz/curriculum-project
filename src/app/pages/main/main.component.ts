@@ -10,6 +10,7 @@ export class MainComponent implements AfterViewInit{
   @ViewChild('contact') contact!: ElementRef;
   @ViewChild('skills') skills!: ElementRef;
   @ViewChild('experience') experience!: ElementRef;
+  @ViewChild('projects') projects!: ElementRef;
   @ViewChild('studies') studies!: ElementRef;
 
   ngAfterViewInit(): void {
@@ -31,7 +32,7 @@ export class MainComponent implements AfterViewInit{
         break;
 
       case '4':
-        this.experience.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        this.projects.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
         break;
 
       case '5':
