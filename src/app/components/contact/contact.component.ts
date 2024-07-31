@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
 export class ContactComponent {
   email: string = "guzhdz28@gmail.com";
 
-  goToGithub() {
-    window.open('https://github.com/guzhdz', '_blank');
+  goTo(path: string) {
+    window.open(path, '_blank');
   }
+
 }
